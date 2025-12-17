@@ -8,14 +8,16 @@ When developing native Python extensions (C/C++/Rust), crashes produce annoying 
 
 ## Installation
 
+Install the package in your virtual environment:
+
 ```bash
-pip install git+https://github.com/mrexodia/auto-faulthandler
+pip install auto-faulthandler
 ```
 
 With uv in development mode:
 
 ```bash
-uv add --dev git+https://github.com/mrexodia/auto-faulthandler
+uv add --dev auto-faulthandler
 ```
 
 ## Usage
