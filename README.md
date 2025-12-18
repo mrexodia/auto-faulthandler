@@ -1,10 +1,10 @@
 # auto-faulthandler
 
-Automatically enable Python's `faulthandler` for extension development
+Automatically enable Python's `faulthandler` for extension development.
 
 ## Why?
 
-When developing native Python extensions (C/C++/Rust), crashes produce annoying macOS popup dialogs. This package automatically enables `faulthandler` to dump crash tracebacks to stderr instead, making debugging much faster.
+When developing native Python extensions (C/C++/Rust), crashes produce annoying macOS popup dialogs. This package automatically enables `faulthandler` to dump crash tracebacks to stderr instead, making debugging much faster. This is extremely relevant when developing with LLMs, because they get useful feedback right away.
 
 ## Installation
 
@@ -52,6 +52,7 @@ This package installs a `.pth` file in your Python's `site-packages` directory. 
 ## Similar Projects
 
 - [auto-dotenv](https://github.com/hmiladhia/auto-dotenv) - Automatically load .env files
+- [auto-truststore](https://github.com/zen-xu/auto-truststore) - Automatically trust (self-signed) certificates from the system store
 
 ## License
 
